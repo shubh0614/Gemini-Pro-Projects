@@ -14,7 +14,6 @@ def get_gemini_response(ques):
     resp=chat.send_message(ques,stream=True)
     return resp
 
-
 #initialize streamlit app
 st.set_page_config(page_title="Q&A ChatBot")
 st.header("Q&A ChatBot")
